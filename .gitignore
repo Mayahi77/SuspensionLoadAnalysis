@@ -1,0 +1,12 @@
+outputs/
+portfolio_package/
+*.asv
+*.autosave
+*.zip
+*.m~
+slprj/
+*.slxc
+*.log
+temp/
+tmp/
+*.bak

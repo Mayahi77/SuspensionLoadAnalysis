@@ -1,0 +1,15 @@
+Check,Category,Passed,MeasuredValue,AcceptanceThreshold,Units,Details
+tire_contact_smooth_30kmh,contact,1,3580.65,0,N,Pass means estimated total normal force remained positive; values are never clamped.
+tire_contact_smooth_60kmh,contact,1,3580.65,0,N,Pass means estimated total normal force remained positive; values are never clamped.
+tire_contact_speed_bump_30kmh,contact,1,2216.86069693751,0,N,Pass means estimated total normal force remained positive; values are never clamped.
+tire_contact_speed_bump_60kmh,contact,1,1555.82026300549,0,N,Pass means estimated total normal force remained positive; values are never clamped.
+tire_contact_pothole_30kmh,contact,1,622.849966982645,0,N,Pass means estimated total normal force remained positive; values are never clamped.
+tire_contact_pothole_60kmh,contact,0,-1754.02144666529,0,N,Pass means estimated total normal force remained positive; values are never clamped.
+tire_contact_rough_30kmh,contact,1,2936.36361316984,0,N,Pass means estimated total normal force remained positive; values are never clamped.
+tire_contact_rough_60kmh,contact,1,2333.77410295518,0,N,Pass means estimated total normal force remained positive; values are never clamped.
+smooth_zero_response,required,1,0,1e-12,SI mixed,Maximum absolute dynamic response across both smooth-road cases.
+finite_equal_length_outputs,required,1,0,0,boolean error,Every output column is finite and has table height.
+suspension_force_reconstruction,required,1,0,1e-09,N,Algebraic consistency check only: exported Fs compared with ks*(zs-zu)+cs*(vs-vu); this is not independent verification of the dynamics.
+nonnegative_damper_dissipation,required,1,0,-1e-10,W,(vs-vu)*Fd = cs*(vs-vu)^2 must be nonnegative within roundoff.
+deterministic_repeat_rough_60kmh,required,1,0,1e-12,maximum absolute difference,Independent repeat compared at every exported sample.
+strict_solver_convergence_all_nonzero_cases,required,1,1.28823392989925e-07,0.001,relative difference,All six nonzero cases; detailed differences are in convergence_results.csv.

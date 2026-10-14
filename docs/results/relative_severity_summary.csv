@@ -1,0 +1,9 @@
+Road,Speed_kmh,TrackLength_m,ContactValid,Eligible,MinimumEstimatedTotalTireNormalForce_N,FirstNonpositiveTime_s,FirstNonpositiveDistance_m,ExclusionReason,CycleTableFile,RainflowRows,EquivalentCycleCount,ResidualHalfCycleRows,Severity_m3,Rank_m3,Severity_m5,Rank_m5
+smooth,30,500,1,1,3580.65,NaN,NaN,,cycles\smooth_30kmh_cycles.csv,0,0,0,0,6,0,6
+smooth,60,500,1,1,3580.65,NaN,NaN,,cycles\smooth_60kmh_cycles.csv,0,0,0,0,6,0,6
+speed_bump,30,500,1,1,2216.86069693751,NaN,NaN,,cycles\speed_bump_30kmh_cycles.csv,109,54.5,109,1.21466205068687,5,1.30406589139291,3
+speed_bump,60,500,1,1,1555.82026300549,NaN,NaN,,cycles\speed_bump_60kmh_cycles.csv,58,29.5,57,4.71786611761054,3,14.5138737300612,2
+pothole,30,500,1,1,622.849966982645,NaN,NaN,,cycles\pothole_30kmh_cycles.csv,113,57,112,7.74385158527141,1,31.6778108210019,1
+pothole,60,500,0,0,-1754.02144666529,6.02,100.333333333333,Entire case excluded: estimated total tire normal force first became nonpositive at t = 6.02 s and x = 100.333 m; the bilateral-tire trajectory is invalid for comparison.,,0,0,0,NaN,NaN,NaN,NaN
+rough,30,500,1,1,2936.36361316984,NaN,NaN,,cycles\rough_30kmh_cycles.csv,510,493,34,1.85049879969932,4,0.153535269174425,5
+rough,60,500,1,1,2333.77410295518,NaN,NaN,,cycles\rough_60kmh_cycles.csv,320,302.5,35,4.82520957960155,2,0.956104954993532,4

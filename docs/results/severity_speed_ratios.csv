@@ -1,0 +1,5 @@
+Road,Ratio60over30_m3,Ratio60over30_m5,RatioAvailable,Reason
+smooth,NaN,NaN,0,N/A: 30 km/h denominator is zero.
+speed_bump,3.88409773314534,11.1297088788654,1,
+pothole,NaN,NaN,0,N/A: one speed is excluded for contact invalidity.
+rough,2.60751835147668,6.22726595742209,1,

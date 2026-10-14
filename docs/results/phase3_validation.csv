@@ -1,0 +1,12 @@
+Test,MeasuredValue,AcceptanceCriterion,Passed
+Manual sequence expected residual half cycles,0,max absolute table difference <= 1e-12,1
+Amplitude equals range divided by two,0,max absolute identity error <= 1e-12 N,1
+Cycle counts are nonnegative,0.5,minimum count >= 0,1
+Force ranges are nonnegative,1.44262125575792e-39,minimum range >= 0 N,1
+Histogram weighted counts reconcile,0,max absolute count difference <= 1e-12,1
+Scaling Fs by two scales S_3 by 2^3,0,relative multiplier error <= 1e-10,1
+Scaling Fs by two scales S_5 by 2^5,0,relative multiplier error <= 1e-10,1
+Smooth-road signals give zero cycles and severity,0,cycle-table rows = 0,1
+Every contact-invalid case is excluded,0,number of contact-invalid eligible cases = 0,1
+Every contact-valid case remains eligible,0,number of contact-valid excluded cases = 0,1
+Excluded cases have no rainflow cycle table data,1,all excluded cycle tables are empty,1
