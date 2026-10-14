@@ -16,8 +16,6 @@ full-vehicle or OEM model.
 
 ## Model
 
-![Quarter-car model](docs/model_diagram.png)
-
 The coordinates are perturbations from static equilibrium and are
 upward-positive. The signed suspension force is
 
